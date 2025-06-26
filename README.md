@@ -37,4 +37,4 @@ In Week 3, there was no assignment but still a lot to learn. The focus was on Ma
 This week also introduced model-free methods and function approximation. The limitations of DP could be seen: real-world problems rarely have known transition models or tractable state spaces.
 
 ## Week 4
-In Week 3, there was no assignment but still a lot to learn.
+In Week 4, there was no assignment but still a lot to learn.
