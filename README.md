@@ -37,4 +37,16 @@ In Week 3, there was no assignment but still a lot to learn. The focus was on Ma
 This week also introduced model-free methods and function approximation. The limitations of DP could be seen: real-world problems rarely have known transition models or tractable state spaces.
 
 ## Week 4
-In Week 4, there was no assignment but still a lot to learn.
+In Week 4, there was no assignment but still a lot to learn. I watched a lot of pytorch tutorials for reinforcement learning algorithms this week which helped me a lot- related to Q learning and DQN in particular.
+
+## Week 5
+Learning- dived deeper into DQN in Atari games and more.
+Assignment- using Q learning to make the snake in the snake game an RL agent. This was particularly fun to implement as I watched the snake learn how to maneuver its way to the food.
+
+## Week 6
+Learnt PPO and how it outperforms older algorithms, like standard policy gradients, for example.
+Read a lot of articles on stuff like openai gym and how to use environments and how to implement it on my own environment, etc.
+
+## Week 7-8:
+### Final Project
+Here, I had to implement what I learnt in week 6 to make a car racing game in openai gym where the car is my agent. I trained the car using PPO to a decent degreee where it can find its way most of the time. Still, I think that if trained for about 10million timesteps, it would perform a lot better compared to the 1 million steps I used. However, I don't think it is feasible on my device or on colab because of the amount of time it takes to train even on a GPU.
