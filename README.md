@@ -1,4 +1,6 @@
 # RL:Race and Learn - SoC 2025
+## use requirements.txt file to download dependencies(pygame and others) to play the snake game from week 1 or to watch the snake agent in week 5 *Run everything else after week2 on Colab*
+
 
 ## Week 1
 
