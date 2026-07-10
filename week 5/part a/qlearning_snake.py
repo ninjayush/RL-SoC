@@ -105,13 +105,13 @@ class SnakeGameAI:
 
         for d in ['left', 'forward', 'right']:
             new_pos = (head[0] + directions[d][0], head[1] + directions[d][1])
-            # Check boundaries
             if (new_pos[0] < 0 or new_pos[0] >= GRID_SIZE or 
                 new_pos[1] < 0 or new_pos[1] >= GRID_SIZE or 
-                new_pos in snake):
+                list(new_pos) in snake):     # <--- ADD list() HERE
                 dangers.append(1)
             else:
                 dangers.append(0)
+
         
         # Current direction
         if direction == (1, 0): dir_idx = 0    # right
